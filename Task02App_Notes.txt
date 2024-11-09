@@ -1,0 +1,35 @@
+### Task02App Overview
+
+This folder contains the FastAPI application for Banking Dataset Analysis and Classification, structured with two main application files that handle different aspects of the API.
+
+### Directory Structure
+Task02App
+├── app01.py
+├── app02.py
+├── BankUser.py
+├── IDRequest.py
+├── simple xgboost.csv
+├── requirements.txt
+├── Task02App_Notes.txt
+└── Chapter 2 Summary.pdf
+
+### requirements.txt
+The following packages are required for the application to run:
+
+fastapi
+uvicorn
+pandas
+pydantic
+
+
+### Notes on `app01.py` and `app02.py`
+
+#### `app01.py`
+- **Purpose**: This module serves as the entry point for the API that handles requests for predictions based on an ID.
+It will take IDRequest.py
+
+
+#### `app02.py`
+- **Purpose**: This module is designed to handle requests related to bank user data using the Pydantic schema for data validation.
+It will take BankUser.py
+
