@@ -10,8 +10,7 @@ class IDRequest(BaseModel):
 app = FastAPI()
 
 # Load the CSV file containing predictions
-csv_path = r"C:\Users\User\Desktop\Qafza\Task02App\simple xgboost.csv"
-data = pd.read_csv(csv_path)
+data = pd.read_csv("/app/data/simple_xgboost.csv")
 
 @app.get('/')
 def index():
